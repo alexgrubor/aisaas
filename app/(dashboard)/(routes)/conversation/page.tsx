@@ -65,9 +65,12 @@ const ConversationPage = () => {
                   </FormItem>
                 )}
               />
-              <Button>Generate</Button>
+              <Button className="col-span-12 lg:col-span-2 w-full" disabled={isLoading}>Generate</Button>
             </form>
           </Form>
+        </div>
+        <div className="space-y-4 mt-4">
+          Content
         </div>
       </div>
     </div>
